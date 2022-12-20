@@ -1,8 +1,8 @@
 Feature: Adactin hotel Booking
 
 Scenario: Login to the home page
-         Given Enter in to home page
-         And enter username and password
+         Given Enter in to Adactin home page
+         And enter username and passcode
          Then record the result
          
 Scenario:  Search Hotel
