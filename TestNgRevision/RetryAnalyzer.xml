@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RetryFailedTests" verbose="1" >
+
+<listeners>
+      <listener class-name="org.retryusinglistener.AnnotationTransformer"/>
+</listeners>
+
+  <test name="RetryMultiple">
+  
+  <classes>
+              <class name="org.retryusinglistener.Test002"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

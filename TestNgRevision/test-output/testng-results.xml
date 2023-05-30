@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-Suite" duration-ms="80" started-at="2022-08-12T07:01:58Z" finished-at="2022-08-12T07:01:58Z">
+    <groups>
+      <group name="demo">
+        <method signature="SearchTitle.click_element()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="click_element" class="org.groups.SearchTitle"/>
+        <method signature="SearchTitle.tc0()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="tc0" class="org.groups.SearchTitle"/>
+        <method signature="SearchTitle.tc5()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="tc5" class="org.groups.SearchTitle"/>
+        <method signature="SearchTitle.tc6()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="tc6" class="org.groups.SearchTitle"/>
+      </group> <!-- demo -->
+      <group name="demo1">
+        <method signature="SearchTitle.checkTitle()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="checkTitle" class="org.groups.SearchTitle"/>
+        <method signature="SearchTitle.tc7()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="tc7" class="org.groups.SearchTitle"/>
+      </group> <!-- demo1 -->
+    </groups>
+    <test name="ToolsQA" duration-ms="80" started-at="2022-08-12T07:01:58Z" finished-at="2022-08-12T07:01:58Z">
+      <class name="org.groups.SearchTitle">
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="checkTitle" duration-ms="15" started-at="2022-08-12T07:01:58Z" finished-at="2022-08-12T07:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="click_element()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="click_element" duration-ms="3" started-at="2022-08-12T07:01:58Z" finished-at="2022-08-12T07:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_element -->
+        <test-method status="PASS" signature="tc0()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="tc0" duration-ms="1" started-at="2022-08-12T07:01:58Z" finished-at="2022-08-12T07:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="tc5" duration-ms="6" started-at="2022-08-12T07:01:58Z" finished-at="2022-08-12T07:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc6()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="tc6" duration-ms="4" started-at="2022-08-12T07:01:58Z" finished-at="2022-08-12T07:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+        <test-method status="PASS" signature="tc7()[pri:0, instance:org.groups.SearchTitle@1794d431]" name="tc7" duration-ms="1" started-at="2022-08-12T07:01:58Z" finished-at="2022-08-12T07:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7 -->
+      </class> <!-- org.groups.SearchTitle -->
+    </test> <!-- ToolsQA -->
+  </suite> <!-- Test-Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test-Suite" >
+   <test name="ToolsQA" >
+   		<groups>
+   			<run>
+   				<include name = "demo1"></include>
+   			    <include name = "demo"></include>
+   			</run>
+   		</groups> 
+       <classes> 
+          <class name="org.groups.SearchTitle" /> 
+       </classes>
+   </test>
+ </suite> 
