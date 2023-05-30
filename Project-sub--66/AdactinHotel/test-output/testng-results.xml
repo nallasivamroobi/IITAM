@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14558" started-at="2021-06-11T06:45:16Z" finished-at="2021-06-11T06:45:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14558" started-at="2021-06-11T06:45:16Z" finished-at="2021-06-11T06:45:31Z">
+      <class name="org.adactin.HotelTransactions">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:org.adactin.HotelTransactions@204f30ec]" name="openUrl" is-config="true" duration-ms="6559" started-at="2021-06-11T06:45:16Z" finished-at="2021-06-11T06:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="loginHotel()[pri:1, instance:org.adactin.HotelTransactions@204f30ec]" name="loginHotel" duration-ms="2199" started-at="2021-06-11T06:45:23Z" finished-at="2021-06-11T06:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHotel -->
+        <test-method status="PASS" signature="hotel()[pri:2, instance:org.adactin.HotelTransactions@204f30ec]" name="hotel" duration-ms="1911" started-at="2021-06-11T06:45:25Z" finished-at="2021-06-11T06:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotel -->
+        <test-method status="PASS" signature="billing()[pri:3, instance:org.adactin.HotelTransactions@204f30ec]" name="billing" duration-ms="3836" started-at="2021-06-11T06:45:27Z" finished-at="2021-06-11T06:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billing -->
+      </class> <!-- org.adactin.HotelTransactions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
