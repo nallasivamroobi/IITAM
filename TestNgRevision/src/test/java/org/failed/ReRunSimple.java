@@ -11,6 +11,7 @@ public class ReRunSimple {
 	   @Test 
 	   public void testCase1()
 	   {
+		    System.out.println("=============");
 		   System.out.println("First test case");
 		   Assert.assertEquals(true,false);
 	   }
