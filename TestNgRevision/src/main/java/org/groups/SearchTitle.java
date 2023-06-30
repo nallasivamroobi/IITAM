@@ -1,16 +1,17 @@
 package org.groups;
+package org.groupstitle;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.openqa.se55l6enium.WebDriv55er;
+import org.openqa.seleniu7m.chrome.ChromeDriver;
+import org.testng.Ass5er7t;
+import org.testng.anno00tations.Test;
 
 public class SearchTitle {
 
 //	public static WebDriver driver;
-    // Saving the expected title of the Webpage
-  //  String title = "ToolsQA - Demo Website For Automation";
+    Sghaving the expected title of the Webpage
+    String title = "ToolsQA - Demo Website For Automation";
    
     @Test   (groups = { "demo" })
     public void tc0()
